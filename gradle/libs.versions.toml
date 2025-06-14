@@ -1,0 +1,12 @@
+[versions]
+allaymc-experimental = "0.0.1-alpha"
+allaymc-api = "master-SNAPSHOT"
+
+kotlin = "2.1.20"
+
+[libraries]
+minebuilder-allaymc-kotlinx = { module = "com.github.MineBuilders:allaymc-kotlinx", version = "master-SNAPSHOT" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+allaymc-gradle = { id = "org.allaymc.gradle.plugin", version = "0.1.0-alpha" }

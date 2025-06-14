@@ -1,0 +1,3 @@
+[submodule "gradle/allay"]
+	path = gradle/allay
+	url = https://github.com/AllayMC/AllayGradle.git
